@@ -1,6 +1,7 @@
 #include "cLista.h"
 
 //no me gusto, lo cambie
+//hola mundo
 cLista::~cLista()
 {
 	if (lista != nullptr) {
