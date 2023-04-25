@@ -1,5 +1,5 @@
 #include <Local.h>
-Local::Local() {
+Local::Local(string nombre,string Direccion,date HorarioSemana, date HorarioFinDeSemana,string Contacto) {
 
 }
 Local::~Local(){}
@@ -10,3 +10,7 @@ date Local::get_HorarioFinDeSemana() {
 string Local::set_Contacto(string Contacto) {
 	this->Contacto = Contacto;
 }
+AsistAutomatico::AsistAutomatico(string NroTurno) {
+
+}
+~AsistAutomatico::AsistAutomatico(){}
