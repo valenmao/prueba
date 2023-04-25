@@ -14,3 +14,7 @@ AsistAutomatico::AsistAutomatico(string NroTurno) {
 
 }
 ~AsistAutomatico::AsistAutomatico(){}
+string AsistAutomatico::get_NroTurno() {
+	this->NroTurno;
+
+}
